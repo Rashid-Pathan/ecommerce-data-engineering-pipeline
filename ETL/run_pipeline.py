@@ -31,6 +31,7 @@ def main():
         ("Extract customers", ETL_DIR / "extract" / "export_customers_csv.py"),
         ("Transform customers", ETL_DIR / "transform" / "transform_customers.py"),
         ("Load customers", ETL_DIR / "load" / "load_customers.py"),
+        ("Validate customer data", ETL_DIR / "data_quality.py"),
     ]
 
     try:
