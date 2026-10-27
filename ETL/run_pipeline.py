@@ -32,6 +32,12 @@ def main():
         ("Transform customers", ETL_DIR / "transform" / "transform_customers.py"),
         ("Load customers", ETL_DIR / "load" / "load_customers.py"),
         ("Validate customer data", ETL_DIR / "data_quality.py"),
+        ("Extract products", ETL_DIR / "extract" / "export_products_csv.py"),
+        ("Transform products", ETL_DIR / "transform" / "transform_products.py"),
+        ("Load products", ETL_DIR / "load" / "load_products.py"),
+        ("Extract orders", ETL_DIR / "extract" / "export_orders_csv.py"),
+        ("Transform orders", ETL_DIR / "transform" / "transform_orders.py"),
+        ("Load orders", ETL_DIR / "load" / "load_orders.py"),
     ]
 
     try:
